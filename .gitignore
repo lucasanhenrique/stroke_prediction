@@ -1,10 +1,18 @@
-
-# Created by https://www.toptal.com/developers/gitignore/api/python,jupyternotebooks,vscode
-# Edit at https://www.toptal.com/developers/gitignore?templates=python,jupyternotebooks,vscode
-
 ### JupyterNotebooks ###
 # gitignore template for Jupyter Notebooks
 # website: http://jupyter.org/
+
+# Folders
+.vscode/
+data/
+image/
+mindmap/
+
+# Files
+*.jpg
+*.png
+*.pdf
+*.csv
 
 .ipynb_checkpoints
 */.ipynb_checkpoints/*
@@ -167,5 +175,3 @@ Thumbs.db #thumbnail cache on Windows
 !.vscode/launch.json
 !.vscode/extensions.json
 *.code-workspace
-
-# End of https://www.toptal.com/developers/gitignore/api/python,jupyternotebooks,vscode
